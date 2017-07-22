@@ -21,7 +21,7 @@ The package is available in Jessie branch
 
 The figlet package is available during the Cygwin setup.
 
-![figlet installation](./images/Cygwin-figlet-installation.png)
+![figlet installation](./MD-resources/Cygwin-figlet-installation.png)
 
 ### Bash Ubuntu for Windows
 
