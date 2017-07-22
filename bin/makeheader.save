@@ -32,6 +32,10 @@ header()
 	printf "\n};\n"
 }
 
+cd asm
+make clean
+make
+
 (
 header loader loadercode 8
 header bar barcode 8
