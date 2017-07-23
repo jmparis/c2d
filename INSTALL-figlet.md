@@ -42,5 +42,9 @@ then install the packages available with npm
 First install Golang
 ``> pacman -S mingw-w64-x86_64-go``
 
+export GOROOT=/mingw64/lib/go
+export GOPATH=/mingw64
+
+
 Install go version of figlet
 ``> go get -u github.com/lukesampson/figlet``
