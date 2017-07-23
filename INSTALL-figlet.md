@@ -38,6 +38,9 @@ then install the packages available with npm
 ``npm install figlet``
 ``npm install -g figlet-cli``
 
+### Msys2 & Golang
+First install Golang
+``> pacman -S mingw-w64-x86_64-go``
 
-
-
+Install go version of figlet
+``> go get -u github.com/lukesampson/figlet``
