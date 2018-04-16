@@ -29,7 +29,7 @@ The Bash Ubuntu is now available under Windows 10; and fortunally the figlet pac
 
 ``> sudo apt-get install figlet``
 
-### Msys2
+### Msys2 & Node.js
 
 First install the nodejs package, if not already
 ``pacman -S mingw-w64-x86_64-nodejs``
@@ -45,6 +45,10 @@ First install Golang
 export GOROOT=/mingw64/lib/go
 export GOPATH=/mingw64
 
-
 Install go version of figlet
 ``> go get -u github.com/lukesampson/figlet``
+
+###Msys2 & Python
+**Best compatible figlet**
+``> pip install pyfiglet``
+
